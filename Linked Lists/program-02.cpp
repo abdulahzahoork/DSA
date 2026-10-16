@@ -9,6 +9,8 @@ struct node {
     node *next;
 };
 
+void re();
+
 int main() {
 
     node *head = new node;
