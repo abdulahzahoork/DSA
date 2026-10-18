@@ -22,7 +22,7 @@ void selectionSortDescending(int arr[], int size) {
         int maxIdx = i;
 
         for(int j=i+1; j<size; j++) {
-            if(arr[j] > arr[maxIdx]) {
+            if (arr[j] > arr[maxIdx]) {
                 maxIdx = j;
             }
         }
